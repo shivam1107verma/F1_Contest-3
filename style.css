@@ -1,0 +1,66 @@
+.container-flex {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.flex_div img {
+  width: 300px;
+  height: 200px;
+}
+@media screen and (max-width: 300px) {
+  .container-flex {
+    flex-direction: column;
+  }
+}
+.card-section {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.cardImg {
+  width: 300px;
+  height: 200px;
+}
+.footer-end {
+  background-color: lightgray;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+@media screen and (max-width: 400px) {
+  .footer-end {
+    grid-template-columns: 1fr;
+  }
+}
+.copywrite {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+}
+@media screen and (max-width: 400px) {
+  .copywrite {
+    grid-template-columns: 1fr;
+  }
+}
+
+.carousel-caption h4{
+  font-size:4.5rem;
+  color:white;
+}
+
+.carousel-caption .btn{
+  background-color: blue;
+  color:white;
+  width:130px;
+  height: 50px;
+}
